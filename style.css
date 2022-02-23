@@ -60,6 +60,7 @@ body{
  .gender_details .category label{
     color:#D8E9A8;
     cursor: pointer;
+    font-size: 15px;
  }
  .gender_details .category input{
     color:#D8E9A8;
