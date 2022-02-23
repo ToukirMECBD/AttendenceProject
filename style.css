@@ -12,26 +12,26 @@ body{
     background: #0D7377;
 }
 .container{
-    width: 450px;;
+    width: 400px;;
     background: #212121;
     padding: 30px;
     border: 5px solid #212121;
     border-radius: 10px;
-    height: 520px;
+    max-height: 530px;
     outline: none;
 }
 .container .title{
     font-size: 25px;
     font-weight: 500;
-    color:#D8E9A8;
+    color:#FFFFFF;
     padding-bottom: 5px;
  }
 .container form .user_details{
     margin-top: 5px;
-    color:#D8E9A8;
+    color:#FFFFFF;
 }
 .user_details .input_box .details{
-    color:#D8E9A8;
+    color:#FFFFFF;
     margin-bottom: 3px;
     display: block;
     padding: 1px;
@@ -39,17 +39,17 @@ body{
 }
 .user_details .input_box input{
     width: 100%;
-    height: 25px;
+    height: 22px;
     outline: none;
     margin-bottom: 10px;
     padding: 10px;
     background-color: #323232;
-    color:#D8E9A8;
+    color:#FFFFFF;
     border: none;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 .gender_details .gender_title{
-    color:#D8E9A8;
+    color:#FFFFFF;
     margin-top: 3px;
     font-size: 15px;
 }
@@ -58,41 +58,54 @@ body{
     font-size: 15px;
  }
  .gender_details .category label{
-    color:#D8E9A8;
+    color:#FFFFFF;
     cursor: pointer;
     font-size: 15px;
  }
  .gender_details .category input{
-    color:#D8E9A8;
+    color:#FFFFFF;
  }
  .button input{
      margin-top: 15px;
      width: 100%;
      padding: 10px;
-     outline: none;
-     border-radius: 10px;
-     color:#D8E9A8;
-     background-color: #0D7377;
+     border-radius: 2px;
+     background-color:#0D7377;
      border: none;
      cursor: pointer;
+     font-size: 15px;
+     font-weight: 350;
+     text-align: center;
+     color: white;
+     letter-spacing: 1px;
+ }
+ .button input:hover{
+       background-color: #7A38DA;
  }
  @media(max-width: 584px){
      .container{
          max-width: 100%;
-         max-height: 100%;
      }
      form .user_details .input_box{
-         margin-bottom: 15px;
+         margin-bottom: 2px;
          width: 100%;
      }
      form .gender_details .category{
         width: 100%;
      }
      .container form .user_details{
-         max-width: 300px;
+         max-width: 320px;
          overflow-y: scroll;
+         max-height: 425px;
      }
      .user_details::-webkit-scrollbar{
          width: 0;
      }
+     .button input{
+        font-weight: 300;
+     }
+     .user_details .button{
+         height: 60px;
+     }
  }
+ 
