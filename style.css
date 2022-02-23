@@ -1,0 +1,97 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background: #0D7377;
+}
+.container{
+    width: 450px;;
+    background: #212121;
+    padding: 30px;
+    border: 5px solid #212121;
+    border-radius: 10px;
+    height: 520px;
+    outline: none;
+}
+.container .title{
+    font-size: 25px;
+    font-weight: 500;
+    color:#D8E9A8;
+    padding-bottom: 5px;
+ }
+.container form .user_details{
+    margin-top: 5px;
+    color:#D8E9A8;
+}
+.user_details .input_box .details{
+    color:#D8E9A8;
+    margin-bottom: 3px;
+    display: block;
+    padding: 1px;
+    font-size: 15px;
+}
+.user_details .input_box input{
+    width: 100%;
+    height: 25px;
+    outline: none;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #323232;
+    color:#D8E9A8;
+    border: none;
+    border-radius: 10px;
+}
+.gender_details .gender_title{
+    color:#D8E9A8;
+    margin-top: 3px;
+    font-size: 15px;
+}
+.gender_details .category{
+    margin-top: 3px;
+    font-size: 15px;
+ }
+ .gender_details .category label{
+    color:#D8E9A8;
+    cursor: pointer;
+ }
+ .gender_details .category input{
+    color:#D8E9A8;
+ }
+ .button input{
+     margin-top: 15px;
+     width: 100%;
+     padding: 10px;
+     outline: none;
+     border-radius: 10px;
+     color:#D8E9A8;
+     background-color: #0D7377;
+     border: none;
+     cursor: pointer;
+ }
+ @media(max-width: 584px){
+     .container{
+         max-width: 100%;
+         max-height: 100%;
+     }
+     form .user_details .input_box{
+         margin-bottom: 15px;
+         width: 100%;
+     }
+     form .gender_details .category{
+        width: 100%;
+     }
+     .container form .user_details{
+         max-width: 300px;
+         overflow-y: scroll;
+     }
+     .user_details::-webkit-scrollbar{
+         width: 0;
+     }
+ }
