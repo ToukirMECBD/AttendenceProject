@@ -57,14 +57,12 @@ body{
     margin-top: 3px;
     font-size: 15px;
  }
- .gender_details .category label{
-    color:#FFFFFF;
+ .gender_details .category option{
+    color:#323232;
     cursor: pointer;
     font-size: 15px;
  }
- .gender_details .category input{
-    color:#FFFFFF;
- }
+
  .button input{
      margin-top: 15px;
      width: 100%;
@@ -106,6 +104,8 @@ body{
      }
      .user_details .button{
          height: 60px;
+         position: center;
      }
  }
  
+
